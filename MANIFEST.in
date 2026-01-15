@@ -1,6 +1,7 @@
 include README.md
 include LICENSE
 include requirements.txt
+include .git
 recursive-include tests *.py
 global-exclude *.pyc
 global-exclude *.pyo

@@ -6,7 +6,10 @@ enabling AI systems to understand and predict real-world phenomena through
 mathematical modeling and system dynamics simulation.
 """
 
-__version__ = "1.0.0"
+try:
+    from ._version import version as __version__
+except ImportError:
+    __version__ = "0.0.0.dev0"
 __author__ = "codesmirnov"
 __description__ = "Reality Engine MCP - Advanced simulation toolkit for AI systems"
 

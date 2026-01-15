@@ -16,9 +16,10 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="simulacrum-mcp",
-    version="1.0.0",
+    use_scm_version=True,
+    setup_requires=['setuptools_scm'],
     author="codesmirnov",
-    author_email="contact@codesmirnov.dev",
+    author_email="hello@codesmirnov.ru",
     description="Reality Engine MCP - Advanced simulation toolkit for AI systems",
     long_description=long_description,
     long_description_content_type="text/markdown",

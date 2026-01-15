@@ -1,19 +1,19 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=61.0", "wheel", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "simulacrum-mcp"
-version = "1.0.0"
+dynamic = ["version"]
 description = "Reality Engine MCP - Advanced simulation toolkit for AI systems"
 readme = "README.md"
 license = {file = "LICENSE"}
 requires-python = ">=3.8"
 authors = [
-    {name = "codesmirnov", email = "contact@codesmirnov.dev"},
+    {name = "codesmirnov", email = "hello@codesmirnov.ru"},
 ]
 maintainers = [
-    {name = "codesmirnov", email = "contact@codesmirnov.dev"},
+    {name = "codesmirnov", email = "hello@codesmirnov.ru"},
 ]
 keywords = [
     "simulation",
@@ -152,3 +152,6 @@ exclude_lines = [
     "class .*\\bProtocol\\):",
     "@\\(abc\\.\\)\\?abstractmethod",
 ]
+
+[tool.setuptools_scm]
+write_to = "simulacrum/_version.py"

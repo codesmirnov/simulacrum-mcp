@@ -4,6 +4,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![PyPI version](https://badge.fury.io/py/simulacrum-mcp.svg)](https://pypi.org/project/simulacrum-mcp/)
+[![CI](https://github.com/codesmirnov/simulacrum-mcp/workflows/CI/badge.svg)](https://github.com/codesmirnov/simulacrum-mcp/actions)
+[![codecov](https://codecov.io/gh/codesmirnov/simulacrum-mcp/branch/main/graph/badge.svg)](https://codecov.io/gh/codesmirnov/simulacrum-mcp)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 
 **Simulacrum** is a comprehensive toolkit that transforms AI systems into sophisticated reality simulators. By providing advanced mathematical modeling, system dynamics simulation, and chaos analysis, it enables AI to understand and predict complex real-world phenomena through rigorous computational methods.
 
@@ -185,6 +190,12 @@ simulacrum/
 ## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### Code of Conduct
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
+### Security
+For security-related issues, please see our [Security Policy](SECURITY.md).
 
 ### Development Setup
 ```bash
