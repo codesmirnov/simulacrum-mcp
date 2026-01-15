@@ -20,6 +20,8 @@ from .tools.belief import BeliefDynamics
 from .tools.game_theory import GameTheoryDynamics
 from .tools.probability import ProbabilityAnalyzer
 from .tools.chaos import ChaosAnalyzer
+from .tools.comparison import ScenarioComparator
+from .tools.vector_analysis import VectorAnalyzer
 
 __all__ = [
     "SimulationEngine",
@@ -29,4 +31,6 @@ __all__ = [
     "GameTheoryDynamics",
     "ProbabilityAnalyzer",
     "ChaosAnalyzer",
+    "ScenarioComparator",
+    "VectorAnalyzer",
 ]
