@@ -19,9 +19,7 @@
 - **Chaos Detection** - Identify black swan events and early warning signals
 
 ### Technical Excellence
-- **SOLID Principles** - Clean, maintainable, and extensible architecture
 - **100% Test Coverage** - Comprehensive testing with pytest and hypothesis
-- **Type Safety** - Full Pydantic validation and mypy compliance
 - **MCP Integration** - Seamless Cursor AI integration via Model Context Protocol
 
 ## 🚀 Quick Start
@@ -224,7 +222,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **codesmirnov**
 - GitHub: [@codesmirnov](https://github.com/codesmirnov)
-- Email: contact@codesmirnov.dev
+- Email: hello@codesmirnov.ru
 
 ---
 
