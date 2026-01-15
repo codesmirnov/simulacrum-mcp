@@ -1,5 +1,9 @@
 # Simulacrum MCP
 
+<p align="center">
+  <img src="images/logo.png" alt="Simulacrum MCP Logo" width="200">
+</p>
+
 ## Reality Engine for AI Systems
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
